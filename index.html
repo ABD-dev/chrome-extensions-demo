@@ -9,6 +9,7 @@
     body {
       width: 400px;
       height: auto;
+      margin-bottom: 20px;
     }
   </style>
 </head>
@@ -16,6 +17,18 @@
   <div class="container">
     <h3>🍔</h3>
     <hr>
+    <div class="row">
+      <div class="col-xs-6">
+        <button type="button" id="hungry" class="btn btn-info btn-block">Yes</button>
+      </div>
+      <div class="col-xs-6">
+        <button type="button" id="not-so-hungry" class="btn btn-default btn-block">No</button>
+      </div>
+    </div>
+    <hr>
+    <div class="content">
+      <ul id="snack-list"></ul>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
